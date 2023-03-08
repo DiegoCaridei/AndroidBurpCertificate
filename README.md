@@ -1,2 +1,5 @@
 # AndroidBurpCertificate
-Install burp certificate on Android Device
+
+As first thing you need to setup burp in the following way
+
+![image info](./screen/burp.png)
