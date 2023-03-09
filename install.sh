@@ -1,3 +1,4 @@
+adb connect
 curl http://burp/cert -x localhost:8080 > /tmp/cacert.der
 openssl x509 -inform DER -in /tmp/cacert.der -out /tmp/cacert.pem
 HASH=$(openssl x509 -inform PEM -subject_hash_old -in /tmp/cacert.pem | head -1)
